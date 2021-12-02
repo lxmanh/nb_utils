@@ -1,10 +1,14 @@
+# @Author: Your name
+# @Date:   2021-12-02 08:57:44
+# @Last Modified by:   Your name
+# @Last Modified time: 2021-12-02 09:00:43
 name: nb_utils
 description: This package helps you daily usable function and ready made Widgets with ease.
-version: 4.4.10
+version: 4.4.10+1
 #homepage: https://bhoominn.github.io
 repository: https://github.com/bhoominn/nb_utils
 issue_tracker: https://github.com/bhoominn/nb_utils/issues
-publish_to: https://pub.dartlang.org
+# publish_to: https://pub.dartlang.org
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -14,9 +18,9 @@ dependencies:
   flutter:
     sdk: flutter
 
-  shared_preferences: ^2.0.6
+  shared_preferences: ^2.0.9
   fluttertoast: ^8.0.8
-  connectivity_plus: ^2.0.2
+  connectivity_plus: ^2.1.0
 
 flutter:
   plugin:
